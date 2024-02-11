@@ -1,0 +1,8 @@
+#  ignore all ny_taxi_postgres_data/ directories b/c they are so large
+ny_taxi_postgres_data/
+
+/mod-1-docker-terraform/mod-1-hw/.green_tripdata_2019-09.csv.gz.icloud
+
+/mod-1-docker-terraform/.output.csv.icloud
+
+/mod-1-docker-terraform/.yellow_tripdata_2021-07.csv.gz.icloud
