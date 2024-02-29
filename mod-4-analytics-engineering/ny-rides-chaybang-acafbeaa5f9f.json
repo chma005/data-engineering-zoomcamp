@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ny-rides-chaybang",
+  "private_key_id": "acafbeaa5f9fcf267327d55719991b71ea983b6e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCT3mEqIE0Cpsiv\nKBU9aEQbr4A+sCQkTBKI0kR6zWoYkxHamWg3tPc1GSKiG4MzMquoKMYDCXWNHTo9\n0FDeMeauudHGq+WhkaAgs79199JvJpWf+yIzVnxPt+Surm9qKiz6SAplGmZPc1Vi\nOPM0N7xn8ZnwDuZYAr8cNKZKxRbOl7pam3W8nZzDTUSPBrSoy6fq0Dlb5HoiYkgT\nWkqWg8LNBToO5qh0M7rkxe0rg3LFPN3jc5Z0m5YQHkB6pxCATmQgFAK4+8XM++B4\n6YqHNfKt1qwWkRa0/pk+6FktFmdo0Ao8F5rNjBo4KviVTDEi9fX+WAHpcx/qVO+J\nv9Y2lIE5AgMBAAECggEAA9GHedC88bPcxvNi+lx6pxwmuCl7gsfHdaObhzcxwerQ\nH368VGcNxoqjyrSpSaHmET1y+c79coR/wgdxEdWdgDxe+X3r5qVE5wpmJH6tG6YH\n7ea+Xy+SnedIEsqBKNL2VAwIigUQrBNYNyxmig/VSqTCKxL/bTmgCwGWnDIE2c+m\nZezpB5H2EgttOd+ecyI+PC0Xc2GxwmPA0OrLvyimA0iuH0PSeonYp4VSYCYM5qja\nQ6xevdXlU7HarRl5t8NBdRrbTtQmoQ/Hx2lEvzjRKQ/w0BuxyvseTM4bmZ+COFL8\nWUvdcGFAlMRYfrPNkUeGK/BZk/FMh06Vj8ToMJRr/wKBgQDPwwBQxDO12CBKBlmM\nSbjYuPxpUKsdmf0jARm05836owC4GB6EnT2wZ3LkRqake2esZQyvEJ0FIrUPXqOj\n7n9bgGyhrAmph4x2M1an3/muZ6OeWk8hW8O2SXYMBbcVMX92hhyAeqcQlwNTXw9x\n7oMr65W0iJIZBY1LatmBEdCQMwKBgQC2M3A+BCNdpxtOjvgNbLm1aF41tOngFmGM\n8I/dcq6USCp23NkjJ6VLfJAv10bRjyzDKJJ0u+Arubnx8j/kBDYhO9jDfxChYuUu\nvrrwOgDwIUrLxrgT/KTONp9Kv8F/1ukk4g8pCyYr9JjlKiiA9H/qMpSPCKjRwh1W\nB/RDfVTM4wKBgB0hZVjtuaZkkFpwu3uNFqrkfRezJNr4rWKME/OmkN30nvQxBY5o\nka67QoO5WEI1v1qPrJCbTrjanfJyvZUNqrPEtPaSLaSkidBE8ICHSfXnOCzK0s+F\nk1JqyG91Ga+SCiIvOa3WBLixw9ibuomp/KBa3tm6UGnLunz5lVegjNK7AoGASm06\ntWqVU8VWR0Hpm/pE5hCrIz8ypiIeWSdPbUNSgynzhrhyToT8ZZiNga1rtWDKBTKG\nmP7B9LqadXXimW8K+Ypr4nf+QB6Yxf6NeGIJTg4bcqBLQ4bZf48ahLtN/L26YSGi\n1b5DKoNxDXOqNfsqYW2l98OuyniD6Ue4hPUmdccCgYEAg5b6rFEOIuPbmGvGkIk4\nD74yUYsM6D5BFMXizd81pbnUb6yts8rgI4bqFcHLqrQ84RLmYkkrlUw/QzpKhvMJ\nSpr4XdYGNJC89cd2+aBeLaJOM6TNWVKg2w/ymr5X1TYlnmYYzR/8HYTC8d7+5OgA\nikvf+f5IA/cGr8tLJDu/xgQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dbt-service-account@ny-rides-chaybang.iam.gserviceaccount.com",
+  "client_id": "113789432332249947980",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dbt-service-account%40ny-rides-chaybang.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
