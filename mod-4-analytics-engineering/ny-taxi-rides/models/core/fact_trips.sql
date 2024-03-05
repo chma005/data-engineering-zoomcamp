@@ -53,4 +53,5 @@ from trips_unioned
 inner join dim_zones as pickup_zone
 on trips_unioned.pickup_locationid = pickup_zone.locationid
 inner join dim_zones as dropoff_zone
+-- fixed join
 on trips_unioned.dropoff_locationid = dropoff_zone.locationid
