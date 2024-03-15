@@ -2,19 +2,20 @@ blocks:
 - all_upstream_blocks_executed: true
   color: null
   configuration: {}
-  downstream_blocks: []
+  downstream_blocks:
+  - transform_fhv_data
   executor_config: null
   executor_type: local_python
   has_callback: false
   language: python
-  name: green_taxi-data-load
+  name: fhv-data-load
   retry_config: null
   status: updated
   timeout: null
   type: data_loader
   upstream_blocks: []
-  uuid: green_taxi_data_load
-- all_upstream_blocks_executed: true
+  uuid: fhv_data_load
+- all_upstream_blocks_executed: false
   color: null
   configuration: {}
   downstream_blocks: []
@@ -22,13 +23,14 @@ blocks:
   executor_type: local_python
   has_callback: false
   language: python
-  name: yellow_taxi_data_load
+  name: transform_fhv_data
   retry_config: null
   status: updated
   timeout: null
-  type: data_loader
-  upstream_blocks: []
-  uuid: yellow_taxi_data_load
+  type: transformer
+  upstream_blocks:
+  - fhv_data_load
+  uuid: transform_fhv_data
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}

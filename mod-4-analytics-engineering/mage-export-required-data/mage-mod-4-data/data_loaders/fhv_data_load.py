@@ -33,25 +33,23 @@ def load_data_from_api(*args, **kwargs):
 
     parse_dates = ['lpep_pickup_datetime', 'lpep_dropoff_datetime']
 
-    years = ['2019', '2020']
+    years = ['2019']
     
-    months = ['01', '02', '03', '04', '05', '06', '07', 
-               '08', '09', '10', '11', '12']
+    months = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12']
 
-    df = pd.concat(
-        [
-            pd.read_csv(
-                f'https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_{year}-{month}.csv.gz',
-                sep=',',
-                compression='gzip',
-                dtype=taxi_dtypes,
-                parse_dates=parse_dates
-            )
-            for year in years
-            for month in months
-        ]
-        
-    )
+    dfs = []  # Create an empty list to store DataFrames
+
+    for year in years:
+        for month in months:
+            url = f'https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/fhv_tripdata_{year}-{month}.csv.gz'
+            df_chunk = pd.read_csv(url, sep=',', compression='gzip')
+            print(f'year{year} month{month} added to dfs list')
+            dfs.append(df_chunk)
+
+    # Concatenate all DataFrames in the list
+    df = pd.concat(dfs, ignore_index=True)
+
+    print(df.head())
 
     print(df.dtypes)
 
